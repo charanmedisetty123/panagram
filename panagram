@@ -1,0 +1,12 @@
+mystr="charan"
+sri=mystr.replace(" ","")
+print(sri)
+mylist=list(set(sri))
+print(mylist)
+mylist.sort()
+print(mylist)
+alpha=list('abcdefghijklmnopqrstuvwxyz')
+if mylist==alpha:
+    print("this is a panagram")
+else:
+    print("this is not a panagram")
